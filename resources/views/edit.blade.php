@@ -3,7 +3,7 @@
     <x-intro-page title="Edit a Contact" page="Edit" />
     <section class="container">
         <div class="flex-start w-100">
-            <a href="/" class="back-page"><img src="{{ asset('./images/arrow.png') }}"
+            <a href="/" class="back-page"><img src="{{ asset('public/images/arrow.png') }}"
                     alt="Arrow to back to home"></a>
         </div>
     </section>
@@ -12,7 +12,7 @@
             @csrf
             @method('PUT')
             <div class="icon-send">
-                <img src="{{ asset('./images/send.png') }}" alt="">
+                <img src="{{ asset('public/images/send.png') }}" alt="">
             </div>
             <div class="input-group flex-top flex-column">
                 <label for="name">Name</label>

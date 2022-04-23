@@ -4,7 +4,7 @@
     @include('flash-messages')
     <section class="container">
         <div class="flex-start w-100">
-            <a href="/" class="back-page"><img src="{{ asset('./images/arrow.png') }}"
+            <a href="/" class="back-page"><img src="{{ asset('public/images/arrow.png') }}"
                     alt="Arrow to back to home"></a>
         </div>
     </section>
@@ -12,7 +12,7 @@
         <form action="{{ route('create.contact') }}" class="form-contact" method="post">
             @csrf
             <div class="icon-send">
-                <img src="{{ asset('./images/send.png') }}" alt="">
+                <img src="{{ asset('public/images/send.png') }}" alt="">
             </div>
             <div class="input-group flex-top flex-column">
                 <label for="name">Name</label>

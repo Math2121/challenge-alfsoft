@@ -5,7 +5,7 @@
 
     <section class="container">
         <div class="flex-start w-100">
-            <a href="/" class="back-page"><img src="{{ asset('./images/arrow.png') }}"
+            <a href="/" class="back-page"><img src="{{ asset('public/images/arrow.png') }}"
                     alt="Arrow to back to home"></a>
         </div>
     </section>
