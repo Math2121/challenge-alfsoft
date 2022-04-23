@@ -1,6 +1,6 @@
 ## Contact Management Web application
 
-A aplicação web foi desevnvolvida com o intuito de poder registrar, alterar e deletar contatos conforme a escolha o usuário.
+A aplicação web foi desenvolvido com o intuito de poder registrar, alterar e deletar contatos conforme a escolha o usuário.
 
 ## Instalação
 
