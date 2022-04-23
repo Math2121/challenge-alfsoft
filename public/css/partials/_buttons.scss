@@ -1,0 +1,57 @@
+a {
+    @include typeface-2(p2, desktop);
+    text-decoration: none;
+    transition: 0.5s ease;
+    color: $black-normal;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.btn {
+    border-radius: 16px;
+    transition: 0.3s ease;
+    font-family: "Nunito", sans-serif;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing:3px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 12px 32px;
+    color: $white-light;
+    box-shadow: 0px 17px 17px rgba(138, 138, 138, 0.13),
+        0px 5.125px 5.125px rgba(126, 123, 126, 0.085),
+        0px 2.12866px 2.12866px rgba(132, 117, 137, 0.065),
+        0px 0.769896px 0.769896px rgba(72, 62, 75, 0.045);
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0px 4px 80px rgba(130, 38, 158, 0.07),
+            0px 1.20588px 24.1177px rgba(130, 38, 158, 0.0456112),
+            0px 0.500862px 10.0172px rgba(130, 38, 158, 0.035),
+            0px 0.181152px 3.62304px rgba(130, 38, 158, 0.0243888);
+    }
+
+    &.primary {
+        background-color: $yellow-light;
+    }
+
+    &.new {
+        background-color: $green-light;
+
+    }
+
+    &.send {
+        background-color: rgb(78, 167, 245);
+        width: 100%;
+        font-weight: bold;
+    }
+
+    &.danger {
+        background-color: $red-light;
+    }
+
+}
